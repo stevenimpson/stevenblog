@@ -1,0 +1,23 @@
+/* 
+Theme Name: SteveningTheme 
+Author: Steven Impson
+Author URI: stevenimpson.com
+Description: Stevings dot com
+Version: 0.1
+*/
+
+body {
+	padding-top: 70px;
+}
+
+.admin-bar .navbar-fixed-top {
+  top: 32px;
+}
+
+.nav-pages {
+	border-right: 1px solid black;
+}
+
+.post {
+	
+}

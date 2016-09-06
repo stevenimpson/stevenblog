@@ -1,0 +1,27 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+	<a class="navbar-brand" href="/">{{ site.name }}</a>
+
+  	<ul class="nav navbar-nav">
+
+		{% for item in menu.items %}
+
+			<li>
+				<a href="{{ item.url }}">{{ item.name }}</a>
+			</li>
+
+		{% endfor %}
+
+		{% for cat in cats %}
+
+			<li>
+				<a href="{{ cat.link }}">{{ cat.name }}</a>
+			</li>
+
+		{% endfor %}
+
+  	</ul>
+
+  </div>
+</nav>
